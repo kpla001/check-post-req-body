@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 // ****************** require the necessary npm package here: ******************
-// ... your code here
+app.use(express.urlencoded({ extended: true }))
 
 // *****************************************************************************
 
@@ -21,10 +21,14 @@ app.get('/', (req, res) => {
 });
 
 // 4.
-// ... your code here
+app.post('/create', (req, res) => {
+  req.body.theAge
+})
 
 // 5:
-// ... your code here
+app.post('/contact', (req, res) => {
+  console.log(req.body)
+})
 
 app.listen(process.env.PORT, () =>
   console.log(`Running on port: ${process.env.PORT}`)

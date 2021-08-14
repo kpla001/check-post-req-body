@@ -1,7 +1,7 @@
 {
   "name": "mongoose-intro",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Starter",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -16,6 +16,15 @@
     "mongoose": "^5.9.11"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpla001/check-post-req-body.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kpla001/check-post-req-body/issues"
+  },
+  "homepage": "https://github.com/kpla001/check-post-req-body#readme"
 }
